@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework2-4</title>
+      
+
+</head>
+<body>
+ <script>
+
+const userYearOfBirth = prompt('Please, enter year of your birth: ');
+
+if (((+userYearOfBirth % 4 == 0) && (+userYearOfBirth % 100 != 0)) || (+userYearOfBirth % 400 == 0)) {
+  alert ('Year of your birth is a leap year')
+}
+else alert('Year of your birth isn`t a leap year');
+
+
+ </script>
+
+</body>
+</html>
